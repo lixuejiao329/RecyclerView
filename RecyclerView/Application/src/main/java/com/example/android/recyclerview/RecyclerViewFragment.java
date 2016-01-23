@@ -68,6 +68,7 @@ public class RecyclerViewFragment extends Fragment {
         rootView.setTag(TAG);
 
 
+        //初始化控件
         mRecyclerView = (RecyclerView) rootView.findViewById(R.id.recyclerView);
 
         // LinearLayoutManager is used here, this will layout the elements in a similar fashion
